@@ -1,5 +1,5 @@
 {
-  "name": "to-do-list",
+  "name": "template",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "webpack.config.js",
@@ -11,16 +11,9 @@
     "build": "webpack",
     "test": "jest --coverage"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LuisDavidRodriguez/To-do-list.git"
-  },
   "keywords": [],
-  "author": "",
+  "author": "Luis David",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LuisDavidRodriguez/To-do-list/issues"
-  },
   "jest": {
     "modulePaths": [
       "/shared/vendor/modules"
@@ -40,7 +33,6 @@
       "^config$": "<rootDir>/configs/app-config.js"
     }
   },
-  "homepage": "https://LuisDavidRodriguez.github.io/To-do-list",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.18.6",
     "babel-eslint": "^10.1.0",
